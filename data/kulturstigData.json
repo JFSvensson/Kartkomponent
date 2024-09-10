@@ -2,7 +2,7 @@
   "center": [59.3293, 18.0686],
   "zoom": 13,
   "markers": [
-      {"lat": 59.3293, "lng": 18.0686, "popup": "Skylt 1"},
-      {"lat": 59.3273, "lng": 18.0626, "popup": "Skylt 2"}
+      {"lat": 59.3293, "lng": 18.0686, "popup": "Skylt 1", "url": "http://www.google.com"},
+      {"lat": 59.3273, "lng": 18.0626, "popup": "Skylt 2", "url": "http://www.dn.se"}
   ]
 }
