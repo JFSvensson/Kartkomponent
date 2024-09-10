@@ -13,24 +13,27 @@ class KartKomponent extends HTMLElement {
   }
 
   connectedCallback() {
-      // Vänta tills hela komponenten är laddad och sedan skapa Leaflet-kartan
-      this.createMap();
+    // Ladda data från en extern JSON-fil
+    fetch('data/kulturstigData.json')
+    .then(response => response.json())
+    .then(data => {
+        this.createMap(data.center, data.zoom, data.markers);
+    });
   }
 
-  createMap() {
+  createMap(center, zoom, markers) {
       // Skapa kartan och ställ in den centralt på en specifik plats
-      const map = L.map(this.mapContainer).setView([59.3293, 18.0686], 13); // Exempelvis Stockholm
+      const map = L.map(this.mapContainer).setView(center, zoom);
 
       // Lägg till OpenStreetMap tiles
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
-      // Exempel på att lägga till en markering
-      const marker = L.marker([59.3293, 18.0686]).addTo(map);
-      
-      // Lägg till ett popup-fönster som visas när man klickar på markeringen
-      marker.bindPopup('<b>Information</b><br>Här är en informationsskylt.');
+      markers.forEach(marker => {
+        const leafletMarker = L.marker([marker.lat, marker.lng]).addTo(map);
+        leafletMarker.bindPopup(`<b>${marker.popup}</b>`);
+      });
 
       // Tooltip visas vid hover
       marker.bindTooltip('Hover-text för markering').openTooltip();
