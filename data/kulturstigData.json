@@ -1,8 +1,86 @@
 {
-  "center": [59.3293, 18.0686],
-  "zoom": 13,
+  "center": [56.5937, 16.1533],
+  "zoom": 15,
   "markers": [
-      {"lat": 59.3293, "lng": 18.0686, "popup": "Skylt 1", "url": "http://www.google.com"},
-      {"lat": 59.3273, "lng": 18.0626, "popup": "Skylt 2", "url": "http://www.dn.se"}
+    {
+      "lat": 56.5937, 
+      "lng": 16.1533, 
+      "popup": "<b>Startskylt:</b> Välkommen till Kulturstigen. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/startskylt.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 1. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt1.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 2. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt2.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 3. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt3.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 4. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt4.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 5. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt5.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 6. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt6.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 7. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt7.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 8. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt8.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 9. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt9.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 10. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt10.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 11. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt11.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 12. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt12.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 13. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt13.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 14. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt14.html\">Läs mer</a>"
+    },
+    {
+      "lat": 56.5967, 
+      "lng": 16.1533, 
+      "popup": "Skylt 15. <a href=\"https://xn--vassmolsa-67a.se/kulturstig/skylt15.html\">Läs mer</a>"
+    }
   ]
 }
